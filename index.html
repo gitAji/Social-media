@@ -20,12 +20,7 @@
     <div class="row">
       <nav class="navbar navbar-light bg-light shadow">
         <div class="container-fluid">
-          <div class="logo">
-            <a href="index.html">
-              <h3>fakebook</h3>
-            </a>
-          </div>
-
+          <a class="navbar-brand" href="#">fakebook</a>
           <form class="search">
             <input class="form-control form-control-md" type="search" placeholder="Search" />
           </form>
@@ -34,7 +29,7 @@
             <a href="alert.html"></a><i class="fas fa-bell"></i></a>
             <a href="login.html"><i class="fas fa-user"></i></a>
           </div>
-          
+
         </div>
       </nav>
     </div>
@@ -62,6 +57,10 @@
                   <i class="fas fa-briefcase fa-1x"></i>Work: front end developer
                 </a>
               </div>
+              <div class="alert alert-light alert-dismissible fade show">
+                <strong>Reminder!</strong> Click on the profile name.
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
             </div>
 
 
@@ -127,16 +126,20 @@
               </div>
             </form>
             <div>
-              <i class="fa fa-video link-danger"> Live</i>
-              <i class="fa fa-image link-primary"> Photo/Video</i>
+              <i class="fa fa-video link-danger p-2"> Live</i>
+              <i class="fa fa-image link-primary p-2"> Photo/Video</i>
 
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Mark Berg</h5>
+              <div class="d-flex">
+              <img class="rounded-circle profile-img" src="/images/mark.png" alt="profile" />
+              <h5 class="card-title py-3">Mark Berg</h5>
+              <i class="fa fa-globe m-1 py-3"></i>
+            </div>
               <p class="card-text">
-                We are scared that the fakebook soon takeover us.
+                We are scared that the fakebook would soon takeover us.
               </p>
               <div class="card-bottom">
                 <i class="far fa-thumbs-up">30k</i>
@@ -147,7 +150,8 @@
               </p>
               <hr>
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 70px"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                  style="height: 70px"></textarea>
                 <label for="floatingTextarea2">Write a comment</label>
               </div>
             </div>
@@ -155,10 +159,13 @@
 
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">
-                Sundar Pichai</h5>
+              <div class="d-flex">
+                <img class="rounded-circle profile-img" src="/images/sundar.png" alt="profile" />
+                <h5 class="card-title py-3">Sundar Pichai</h5>
+                <i class="fa fa-globe m-1 py-3"></i>
+              </div>
               <p class="card-text">
-                It would be most significant acquisition,if we negotiate the best deal with fakebook.
+                It would be the most significant acquisition,if we negotiate the best deal with fakebook.
               </p>
               <div class="card-bottom">
                 <i class="far fa-thumbs-up">20k</i>
@@ -169,7 +176,8 @@
               </p>
               <hr>
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 70px"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                  style="height: 70px"></textarea>
                 <label for="floatingTextarea2">Write a comment</label>
               </div>
             </div>
@@ -188,7 +196,7 @@
               <hr>
               <ul class="list-group ">
                 <li class="list-unstyled py-2">
-                  Crazy frog 
+                  Crazy frog
                 </li>
                 <li class="list-unstyled py-2">
                   Delip varman
@@ -196,8 +204,14 @@
                 <li class="list-unstyled py-2">
                   Sundar Pichai
                 </li>
-                <li class="list-unstyled">
+                <li class="list-unstyled py-2">
                   Mark Berg 
+                </li>
+                <li class="list-unstyled py-2">
+                  Kari Nordmann
+                </li>
+                <li class="list-unstyled py-2">
+                  David Baker
                 </li>
               </ul>
             </div>
@@ -209,7 +223,7 @@
   </div>
   <footer>
     <footer class="text-lg-center m-5">
-      <p>Copyright &copy; 2020 fakebook.</p>
+      <p>Copyright &copy; 2022 fakebook.</p>
       </div>
 
     </footer>

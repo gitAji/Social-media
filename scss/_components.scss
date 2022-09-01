@@ -1,31 +1,13 @@
 // Override Variables
 $input-btn-padding-y:         .5rem;
 $input-btn-padding-x:         2rem;
+$navbar-brand-font-size:         2.25rem;
+$navbar-light-brand-color:      $primary;
 
 // these css must be replace with BS overrides
 
-a {
-   text-decoration: none;
-   font-size: 1rem;
-
-}
-
-.logo {
-   font-size: 4rem;
-   letter-spacing: .3rem;
-   color: $primary;
 
 
-   a {
-      text-decoration: none;
-
-   }
-}
-
-
-.card-link {
-   text-decoration: none;
-}
 
 .placeholder {
    font-size: .1rem;
