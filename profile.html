@@ -9,50 +9,63 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon">
     <title>Social Media</title>
 </head>
 
 <body>
+
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar navbar-light bg-light shadow">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">fakebook</a>
-                    <form class="search">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand ms-4" href="home.html">fakebook</a>
+                <button class="navbar-toggler border-0 m-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <form class="m-auto d-xs-none d-sm-none d-md-none d-lg-flex">
                         <input class="form-control form-control-md" type="search" placeholder="Search" />
                     </form>
-                    <div class="side-icon">
-                        <a href="chat.html"></a><i class="fas fa-comment"></i></a>
-                        <a href="alert.html"></a><i class="fas fa-bell"></i></a>
-                        <a href="login.html"><i class="fas fa-user"></i></a>
-                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-xs-auto m-sm-auto m-md-auto">
+                            <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                        </li>
+                        <li class="nav-item m-xs-auto m-sm-auto m-md-auto">
+                            <a class="nav-link" href="#"><i class="fas fa-comment"></i> </a>
+                            
+                        </li>
+                        <li class="nav-item m-xs-auto m-sm-auto m-md-auto">
+                            <a class="nav-link" href="index.html"><i class="fas fa-user"></i> </a>
+                        </li>
+                    </ul>
                 </div>
-
             </nav>
         </div>
-        <!-- cover image section -->
-        <div class="container">
-            <div class="card">
+    </div>
+    <!-- end of navbar  -->
+    <!-- cover image section -->
+    <div class="container">
+        <div class="card">
 
-                <img src="images/post1.jpeg" alt="">
+            <img src="images/post1.jpeg" alt="">
 
-                <button class="btn btn-light cover-btn">Edit Cover</button>
-            </div>
-            <!-- profile image section -->
-            <div class="profile">
-                <img src="images/profile.png" alt="" id="profile">
-                <span class="card-title"><b>Ajeerathan</b></span>
-                <button class="btn btn-light profile-btn">Edit Profile</button>
-                <button class="btn btn-light">View As</button>
-                <a href="index.html"><i class="fa fa-home"></i></a>
-            </div>
-
-
-
-            <!-- profile details section -->
-            <hr>
+            <button class="btn btn-light cover-btn p-sm-1 p-0">Edit Cover</button>
         </div>
+        <!-- profile image section -->
+        <div class="profile m-sm-0 mx-sm-0">
+            <img src="images/profile.png" alt="" id="profile">
+            <span class="card-title"><b>Ajeerathan</b></span>
+            <button class="btn btn-light profile-btn m-sm-0">Edit Profile</button>
+            <a href="home.html"><i class="fa fa-home"></i></a>
+        </div>
+
+
+
+        <!-- profile details section -->
+        <hr>
+    </div>
     </div>
     <div class="container">
         <div class="row">
@@ -80,16 +93,59 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="friends">Friends
-
-
+                    <div class="">Friends(200)
+                        <hr>
+                        <div class="d-flex flex-wrap">
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                            <li class="img-list list-unstyled p-3 ">
+                                <a href="#" class="m-b-5 mx-sm-auto"><i class="fa fa-user fa-5x"></i></a>
+                            </li>
+                        </div>
                     </div>
-                    <hr>
+
 
                 </div>
                 <div class="card">
                     <div class="friends">Photos</div>
                     <hr>
+                    <div class="d-flex flex-wrap">
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+                        <i class="fa fa-image fa-4x m-3"></i>
+
+                    </div>
+
 
                 </div>
             </div>
